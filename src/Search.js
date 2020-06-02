@@ -46,7 +46,7 @@ class Search extends Component {
                 .filter((book) => book.authors && book.imageLinks)
                 .map((book) => (
                   <Book
-                    select={book.shelf}
+                    select={book.shelf?book.shelf:'none'}
                     imageLink={
                       book.imageLinks ? book.imageLinks.smallThumbnail : ""
                     }
