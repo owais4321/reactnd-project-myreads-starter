@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "loader-fs-cache": "^1.0.3",
+    "pnp-webpack-plugin": "^1.6.4",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "2.1.1"
   },
   "scripts": {
